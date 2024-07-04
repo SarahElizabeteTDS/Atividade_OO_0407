@@ -1,5 +1,7 @@
 <?php
 
+//inicializacao de variaveis
+$totalAlunos = 0;
 $turmas = array();
 
 //ler as turmas
