@@ -6,9 +6,9 @@ $turma2 = array();
 $turma3 = array();
 $turma4 = array();
 
-$turmas = array();
+$turmas = array(); //matriz
 
-$totalAlunos = 0;
+$totalAlunos = 0; //soma de todos os alunos
 
 //valores
 $turma1["curso"] = readline("Informe o curso da turma: ");
@@ -36,4 +36,5 @@ foreach($turmas as $turma)
     $totalAlunos += $turma["alunos"];
 }
 
+//imprime a saida
 print "A quantidade de alunos de todas as turmas somada é: " . $totalAlunos . "\n";
